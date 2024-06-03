@@ -19,9 +19,9 @@ package types
 import (
 	"fmt"
 
+	evmostypes "github.com/airchains-network/evmos-v12/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
-	evmostypes "github.com/evmos/evmos/v12/types"
 )
 
 // NewIncentive returns an instance of Incentive

@@ -16,8 +16,8 @@
 package keeper
 
 import (
+	"github.com/airchains-network/evmos-v12/x/evm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/evmos/evmos/v12/x/evm/types"
 )
 
 // GetParams returns the total set of evm parameters.

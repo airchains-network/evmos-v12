@@ -3,10 +3,10 @@ package keeper_test
 import (
 	"fmt"
 
+	utiltx "github.com/airchains-network/evmos-v12/testutil/tx"
 	"github.com/ethereum/go-ethereum/common"
-	utiltx "github.com/evmos/evmos/v12/testutil/tx"
 
-	"github.com/evmos/evmos/v12/x/incentives/types"
+	"github.com/airchains-network/evmos-v12/x/incentives/types"
 )
 
 func (suite *KeeperTestSuite) TestGetIncentivesGasMeters() {

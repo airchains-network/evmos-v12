@@ -53,16 +53,16 @@ import (
 	govv1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/evmos/evmos/v12/crypto/hd"
-	"github.com/evmos/evmos/v12/server/config"
-	srvflags "github.com/evmos/evmos/v12/server/flags"
+	"github.com/airchains-network/evmos-v12/crypto/hd"
+	"github.com/airchains-network/evmos-v12/server/config"
+	srvflags "github.com/airchains-network/evmos-v12/server/flags"
 
-	evmostypes "github.com/evmos/evmos/v12/types"
-	evmtypes "github.com/evmos/evmos/v12/x/evm/types"
+	evmostypes "github.com/airchains-network/evmos-v12/types"
+	evmtypes "github.com/airchains-network/evmos-v12/x/evm/types"
 
-	cmdcfg "github.com/evmos/evmos/v12/cmd/config"
-	evmoskr "github.com/evmos/evmos/v12/crypto/keyring"
-	"github.com/evmos/evmos/v12/testutil/network"
+	cmdcfg "github.com/airchains-network/evmos-v12/cmd/config"
+	evmoskr "github.com/airchains-network/evmos-v12/crypto/keyring"
+	"github.com/airchains-network/evmos-v12/testutil/network"
 )
 
 var (

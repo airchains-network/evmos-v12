@@ -3,11 +3,11 @@ package keeper_test
 import (
 	"time"
 
+	"github.com/airchains-network/evmos-v12/app"
+	"github.com/airchains-network/evmos-v12/testutil"
+	"github.com/airchains-network/evmos-v12/x/epochs/types"
+	evm "github.com/airchains-network/evmos-v12/x/evm/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/evmos/evmos/v12/app"
-	"github.com/evmos/evmos/v12/testutil"
-	"github.com/evmos/evmos/v12/x/epochs/types"
-	evm "github.com/evmos/evmos/v12/x/evm/types"
 )
 
 // Test helpers

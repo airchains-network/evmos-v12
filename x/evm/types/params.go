@@ -24,7 +24,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/evmos/evmos/v12/utils"
+	"github.com/airchains-network/evmos-v12/utils"
 )
 
 var (

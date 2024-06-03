@@ -18,9 +18,9 @@ package incentives
 
 import (
 	errorsmod "cosmossdk.io/errors"
+	"github.com/airchains-network/evmos-v12/x/incentives/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/evmos/evmos/v12/x/incentives/types"
 )
 
 // NewHandler returns a handler for incentives module messages

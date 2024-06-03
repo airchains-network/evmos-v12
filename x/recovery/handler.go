@@ -18,9 +18,9 @@ package recovery
 
 import (
 	errorsmod "cosmossdk.io/errors"
+	"github.com/airchains-network/evmos-v12/x/recovery/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/evmos/evmos/v12/x/recovery/types"
 )
 
 // NewHandler returns a handler for recovery type messages.

@@ -3,19 +3,19 @@ package v3_test
 import (
 	"testing"
 
+	"github.com/airchains-network/evmos-v12/app"
+	"github.com/airchains-network/evmos-v12/encoding"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/evmos/evmos/v12/app"
-	"github.com/evmos/evmos/v12/encoding"
 
-	v3types "github.com/evmos/evmos/v12/x/erc20/migrations/v3/types"
+	v3types "github.com/airchains-network/evmos-v12/x/erc20/migrations/v3/types"
 
-	"github.com/evmos/evmos/v12/x/erc20/types"
+	"github.com/airchains-network/evmos-v12/x/erc20/types"
 	"github.com/stretchr/testify/require"
 
+	"github.com/airchains-network/evmos-v12/x/erc20/migrations/v3"
 	"github.com/cosmos/cosmos-sdk/testutil"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/evmos/evmos/v12/x/erc20/migrations/v3"
 )
 
 type mockSubspace struct {

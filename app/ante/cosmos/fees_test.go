@@ -5,13 +5,13 @@ import (
 	"time"
 
 	"cosmossdk.io/math"
+	cosmosante "github.com/airchains-network/evmos-v12/app/ante/cosmos"
+	"github.com/airchains-network/evmos-v12/testutil"
+	testutiltx "github.com/airchains-network/evmos-v12/testutil/tx"
+	"github.com/airchains-network/evmos-v12/utils"
 	sdktestutil "github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/feegrant"
-	cosmosante "github.com/evmos/evmos/v12/app/ante/cosmos"
-	"github.com/evmos/evmos/v12/testutil"
-	testutiltx "github.com/evmos/evmos/v12/testutil/tx"
-	"github.com/evmos/evmos/v12/utils"
 )
 
 func (suite *AnteTestSuite) TestDeductFeeDecorator() {

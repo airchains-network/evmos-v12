@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"cosmossdk.io/math"
+	utiltx "github.com/airchains-network/evmos-v12/testutil/tx"
+	"github.com/airchains-network/evmos-v12/x/claims/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	utiltx "github.com/evmos/evmos/v12/testutil/tx"
-	"github.com/evmos/evmos/v12/x/claims/types"
 	"github.com/stretchr/testify/require"
 )
 

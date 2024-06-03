@@ -14,11 +14,11 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/suite"
 
+	evm "github.com/airchains-network/evmos-v12/x/evm/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	evm "github.com/evmos/evmos/v12/x/evm/types"
 
-	"github.com/evmos/evmos/v12/app"
-	"github.com/evmos/evmos/v12/x/vesting/types"
+	"github.com/airchains-network/evmos-v12/app"
+	"github.com/airchains-network/evmos-v12/x/vesting/types"
 )
 
 var (

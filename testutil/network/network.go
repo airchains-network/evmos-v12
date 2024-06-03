@@ -44,6 +44,8 @@ import (
 	dbm "github.com/tendermint/tm-db"
 	"google.golang.org/grpc"
 
+	"github.com/airchains-network/evmos-v12/app"
+	"github.com/airchains-network/evmos-v12/crypto/hd"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/tx"
@@ -64,13 +66,11 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/evmos/evmos/v12/app"
-	"github.com/evmos/evmos/v12/crypto/hd"
 
-	"github.com/evmos/evmos/v12/encoding"
-	"github.com/evmos/evmos/v12/server/config"
-	evmostypes "github.com/evmos/evmos/v12/types"
-	evmtypes "github.com/evmos/evmos/v12/x/evm/types"
+	"github.com/airchains-network/evmos-v12/encoding"
+	"github.com/airchains-network/evmos-v12/server/config"
+	evmostypes "github.com/airchains-network/evmos-v12/types"
+	evmtypes "github.com/airchains-network/evmos-v12/x/evm/types"
 )
 
 // package-wide network lock to only allow one test network at a time
