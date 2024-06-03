@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	sdkmath "cosmossdk.io/math"
+	evmostypes "github.com/airchains-network/evmos/v12/types"
+	incentivestypes "github.com/airchains-network/evmos/v12/x/incentives/types"
+	"github.com/airchains-network/evmos/v12/x/inflation/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	evmostypes "github.com/evmos/evmos/v12/types"
-	incentivestypes "github.com/evmos/evmos/v12/x/incentives/types"
-	"github.com/evmos/evmos/v12/x/inflation/types"
 )
 
 func (suite *KeeperTestSuite) TestMintAndAllocateInflation() {

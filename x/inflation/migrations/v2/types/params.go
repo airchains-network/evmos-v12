@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"strings"
 
+	evm "github.com/airchains-network/evmos/v12/x/evm/types"
+	"github.com/airchains-network/evmos/v12/x/inflation/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	evm "github.com/evmos/evmos/v12/x/evm/types"
-	"github.com/evmos/evmos/v12/x/inflation/types"
 )
 
 var _ types.LegacyParams = &V2Params{}

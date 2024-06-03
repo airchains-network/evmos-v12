@@ -5,6 +5,11 @@ import (
 	"time"
 
 	"cosmossdk.io/math"
+	"github.com/airchains-network/evmos/v12/crypto/ethsecp256k1"
+	"github.com/airchains-network/evmos/v12/testutil"
+	utiltx "github.com/airchains-network/evmos/v12/testutil/tx"
+	evmostypes "github.com/airchains-network/evmos/v12/types"
+	inflationtypes "github.com/airchains-network/evmos/v12/x/inflation/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
@@ -12,13 +17,8 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/evmos/evmos/v12/crypto/ethsecp256k1"
-	"github.com/evmos/evmos/v12/testutil"
-	utiltx "github.com/evmos/evmos/v12/testutil/tx"
-	evmostypes "github.com/evmos/evmos/v12/types"
-	inflationtypes "github.com/evmos/evmos/v12/x/inflation/types"
 
-	"github.com/evmos/evmos/v12/x/claims/types"
+	"github.com/airchains-network/evmos/v12/x/claims/types"
 )
 
 func (suite *KeeperTestSuite) TestGetClaimableAmountForAction() {

@@ -3,10 +3,10 @@ package v3_test
 import (
 	"testing"
 
+	v3 "github.com/airchains-network/evmos/v12/x/inflation/migrations/v3"
+	"github.com/airchains-network/evmos/v12/x/inflation/types"
 	"github.com/cosmos/cosmos-sdk/testutil"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	v3 "github.com/evmos/evmos/v12/x/inflation/migrations/v3"
-	"github.com/evmos/evmos/v12/x/inflation/types"
 	"github.com/stretchr/testify/require"
 )
 

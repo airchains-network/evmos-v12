@@ -1,9 +1,9 @@
 package keeper_test
 
 import (
+	"github.com/airchains-network/evmos/v12/x/recovery/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/evmos/evmos/v12/x/recovery/types"
 )
 
 func (suite *KeeperTestSuite) TestUpdateParams() {

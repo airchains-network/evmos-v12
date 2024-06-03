@@ -20,9 +20,9 @@ import (
 	"context"
 
 	errorsmod "cosmossdk.io/errors"
+	"github.com/airchains-network/evmos/v12/x/incentives/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/evmos/evmos/v12/x/incentives/types"
 )
 
 // UpdateParams implements the gRPC MsgServer interface. When an UpdateParams

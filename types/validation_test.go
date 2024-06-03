@@ -3,9 +3,9 @@ package types_test
 import (
 	"testing"
 
+	utiltx "github.com/airchains-network/evmos/v12/testutil/tx"
+	"github.com/airchains-network/evmos/v12/types"
 	"github.com/ethereum/go-ethereum/common"
-	utiltx "github.com/evmos/evmos/v12/testutil/tx"
-	"github.com/evmos/evmos/v12/types"
 	"github.com/stretchr/testify/require"
 )
 

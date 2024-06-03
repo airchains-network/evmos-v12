@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/airchains-network/evmos/v12/x/epochs/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/evmos/evmos/v12/x/epochs/types"
 )
 
 func (suite *KeeperTestSuite) TestEpochInfo() {

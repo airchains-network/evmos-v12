@@ -19,8 +19,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/airchains-network/evmos/v12/types"
 	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/evmos/evmos/v12/types"
 	rpcclient "github.com/tendermint/tendermint/rpc/client"
 )
 

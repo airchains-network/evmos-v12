@@ -17,8 +17,8 @@
 package types
 
 import (
+	evmostypes "github.com/airchains-network/evmos/v12/types"
 	"github.com/ethereum/go-ethereum/common"
-	evmostypes "github.com/evmos/evmos/v12/types"
 )
 
 // NewGasMeter returns an instance of GasMeter

@@ -3,8 +3,8 @@ package types_test
 import (
 	"math/big"
 
+	"github.com/airchains-network/evmos/v12/x/evm/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/evmos/v12/x/evm/types"
 )
 
 func (suite *TxDataTestSuite) TestAccessListTxCopy() {

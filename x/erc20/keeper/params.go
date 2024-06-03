@@ -17,8 +17,8 @@
 package keeper
 
 import (
+	"github.com/airchains-network/evmos/v12/x/erc20/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/evmos/evmos/v12/x/erc20/types"
 )
 
 var isTrue = []byte("0x01")

@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
+	epochstypes "github.com/airchains-network/evmos/v12/x/epochs/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	epochstypes "github.com/evmos/evmos/v12/x/epochs/types"
 )
 
 // ParamsKey params store key
