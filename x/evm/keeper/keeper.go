@@ -127,6 +127,7 @@ func (k *Keeper) WithChainID(ctx sdk.Context) {
 	}
 
 	k.eip155ChainID = chainID
+
 }
 
 // ChainID returns the EIP155 chain ID for the EVM context
