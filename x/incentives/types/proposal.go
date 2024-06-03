@@ -20,9 +20,9 @@ import (
 	"errors"
 	fmt "fmt"
 
-	evmostypes "github.com/airchains-network/evmos/v12/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	evmostypes "github.com/evmos/evmos/v12/types"
 )
 
 // constants

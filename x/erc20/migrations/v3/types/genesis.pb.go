@@ -9,8 +9,8 @@ import (
 	math "math"
 	math_bits "math/bits"
 
-	"github.com/airchains-network/evmos/v12/x/erc20/types"
 	_ "github.com/cosmos/gogoproto/gogoproto"
+	"github.com/evmos/evmos/v12/x/erc20/types"
 	proto "github.com/gogo/protobuf/proto"
 )
 

@@ -19,11 +19,11 @@ package keeper
 import (
 	"fmt"
 
-	epochstypes "github.com/airchains-network/evmos/v12/x/epochs/types"
-	"github.com/airchains-network/evmos/v12/x/inflation/types"
 	"github.com/armon/go-metrics"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	epochstypes "github.com/evmos/evmos/v12/x/epochs/types"
+	"github.com/evmos/evmos/v12/x/inflation/types"
 )
 
 // BeforeEpochStart: noop, We don't need to do anything here

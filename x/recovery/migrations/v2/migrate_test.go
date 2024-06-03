@@ -6,13 +6,13 @@ import (
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"github.com/airchains-network/evmos/v12/app"
-	"github.com/airchains-network/evmos/v12/encoding"
-	v2 "github.com/airchains-network/evmos/v12/x/recovery/migrations/v2"
-	v2types "github.com/airchains-network/evmos/v12/x/recovery/migrations/v2/types"
-	"github.com/airchains-network/evmos/v12/x/recovery/types"
 	"github.com/cosmos/cosmos-sdk/testutil"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/evmos/evmos/v12/app"
+	"github.com/evmos/evmos/v12/encoding"
+	v2 "github.com/evmos/evmos/v12/x/recovery/migrations/v2"
+	v2types "github.com/evmos/evmos/v12/x/recovery/migrations/v2/types"
+	"github.com/evmos/evmos/v12/x/recovery/types"
 	"github.com/stretchr/testify/require"
 )
 

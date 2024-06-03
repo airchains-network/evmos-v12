@@ -22,12 +22,12 @@ import (
 	sdkmath "cosmossdk.io/math"
 
 	errorsmod "cosmossdk.io/errors"
-	evmostypes "github.com/airchains-network/evmos/v12/types"
-	"github.com/airchains-network/evmos/v12/x/evm/statedb"
-	"github.com/airchains-network/evmos/v12/x/evm/types"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
+	evmostypes "github.com/evmos/evmos/v12/types"
+	"github.com/evmos/evmos/v12/x/evm/statedb"
+	"github.com/evmos/evmos/v12/x/evm/types"
 )
 
 var _ statedb.Keeper = &Keeper{}

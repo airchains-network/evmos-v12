@@ -61,11 +61,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/server/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/airchains-network/evmos/v12/indexer"
-	ethdebug "github.com/airchains-network/evmos/v12/rpc/namespaces/ethereum/debug"
-	"github.com/airchains-network/evmos/v12/server/config"
-	srvflags "github.com/airchains-network/evmos/v12/server/flags"
-	evmostypes "github.com/airchains-network/evmos/v12/types"
+	"github.com/evmos/evmos/v12/indexer"
+	ethdebug "github.com/evmos/evmos/v12/rpc/namespaces/ethereum/debug"
+	"github.com/evmos/evmos/v12/server/config"
+	srvflags "github.com/evmos/evmos/v12/server/flags"
+	evmostypes "github.com/evmos/evmos/v12/types"
 )
 
 // DBOpener is a function to open `application.db`, potentially with customized options.

@@ -22,11 +22,11 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 
 	sdkmath "cosmossdk.io/math"
-	"github.com/airchains-network/evmos/v12/utils"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	distrKeeper "github.com/cosmos/cosmos-sdk/x/distribution/keeper"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/evmos/evmos/v12/utils"
 )
 
 // CreateUpgradeHandler creates an SDK upgrade handler for v9

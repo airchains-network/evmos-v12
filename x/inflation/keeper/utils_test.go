@@ -3,12 +3,12 @@ package keeper_test
 import (
 	"time"
 
-	"github.com/airchains-network/evmos/v12/app"
-	"github.com/airchains-network/evmos/v12/testutil"
-	epochstypes "github.com/airchains-network/evmos/v12/x/epochs/types"
-	evm "github.com/airchains-network/evmos/v12/x/evm/types"
-	"github.com/airchains-network/evmos/v12/x/inflation/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
+	"github.com/evmos/evmos/v12/app"
+	"github.com/evmos/evmos/v12/testutil"
+	epochstypes "github.com/evmos/evmos/v12/x/epochs/types"
+	evm "github.com/evmos/evmos/v12/x/evm/types"
+	"github.com/evmos/evmos/v12/x/inflation/types"
 )
 
 // Test helpers

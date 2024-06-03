@@ -9,13 +9,13 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/airchains-network/evmos/v12/crypto/ethsecp256k1"
-	"github.com/airchains-network/evmos/v12/testutil"
-	utiltx "github.com/airchains-network/evmos/v12/testutil/tx"
-	evmtypes "github.com/airchains-network/evmos/v12/x/evm/types"
-	"github.com/airchains-network/evmos/v12/x/revenue/v1/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
+	"github.com/evmos/evmos/v12/crypto/ethsecp256k1"
+	"github.com/evmos/evmos/v12/testutil"
+	utiltx "github.com/evmos/evmos/v12/testutil/tx"
+	evmtypes "github.com/evmos/evmos/v12/x/evm/types"
+	"github.com/evmos/evmos/v12/x/revenue/v1/types"
 
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 )

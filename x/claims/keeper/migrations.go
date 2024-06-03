@@ -17,9 +17,9 @@
 package keeper
 
 import (
-	v3 "github.com/airchains-network/evmos/v12/x/claims/migrations/v3"
-	"github.com/airchains-network/evmos/v12/x/claims/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	v3 "github.com/evmos/evmos/v12/x/claims/migrations/v3"
+	"github.com/evmos/evmos/v12/x/claims/types"
 )
 
 // Migrator is a struct for handling in-place store migrations.

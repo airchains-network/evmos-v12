@@ -17,10 +17,10 @@
 package testutil
 
 import (
-	"github.com/airchains-network/evmos/v12/utils"
-	inflationtypes "github.com/airchains-network/evmos/v12/x/inflation/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
+	"github.com/evmos/evmos/v12/utils"
+	inflationtypes "github.com/evmos/evmos/v12/x/inflation/types"
 )
 
 // FundAccount is a utility function that funds an account by minting and

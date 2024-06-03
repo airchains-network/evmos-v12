@@ -4,16 +4,16 @@ import (
 	"time"
 
 	sdkmath "cosmossdk.io/math"
-	testutiltx "github.com/airchains-network/evmos/v12/testutil/tx"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	testutiltx "github.com/evmos/evmos/v12/testutil/tx"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/airchains-network/evmos/v12/crypto/ethsecp256k1"
-	"github.com/airchains-network/evmos/v12/testutil"
-	"github.com/airchains-network/evmos/v12/utils"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/evmos/evmos/v12/crypto/ethsecp256k1"
+	"github.com/evmos/evmos/v12/testutil"
+	"github.com/evmos/evmos/v12/utils"
 )
 
 var _ = Describe("when sending a Cosmos transaction", func() {

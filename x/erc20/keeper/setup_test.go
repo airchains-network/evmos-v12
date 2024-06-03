@@ -6,10 +6,6 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/airchains-network/evmos/v12/app"
-	ibctesting "github.com/airchains-network/evmos/v12/ibc/testing"
-	"github.com/airchains-network/evmos/v12/x/erc20/types"
-	evm "github.com/airchains-network/evmos/v12/x/evm/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
@@ -18,6 +14,10 @@ import (
 	ibcgotesting "github.com/cosmos/ibc-go/v6/testing"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
+	"github.com/evmos/evmos/v12/app"
+	ibctesting "github.com/evmos/evmos/v12/ibc/testing"
+	"github.com/evmos/evmos/v12/x/erc20/types"
+	evm "github.com/evmos/evmos/v12/x/evm/types"
 	"github.com/stretchr/testify/suite"
 )
 

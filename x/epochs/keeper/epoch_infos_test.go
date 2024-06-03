@@ -3,7 +3,7 @@ package keeper_test
 import (
 	"time"
 
-	"github.com/airchains-network/evmos/v12/x/epochs/types"
+	"github.com/evmos/evmos/v12/x/epochs/types"
 )
 
 func (suite *KeeperTestSuite) TestEpochLifeCycle() {
